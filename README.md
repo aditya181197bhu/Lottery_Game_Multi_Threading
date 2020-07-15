@@ -1,4 +1,4 @@
-# Lottery_Game
+Multi threading implementation of Lotter Game in java.
+
 This has 3(fixed) participants.
-We can change no of participants.
-Code is in java.
+
