@@ -22,37 +22,9 @@ class MyThread implements Runnable {
     public void run() {
 
 //        Thread.sleep(1000);
-        try {
-            for(int i = 10; i > 0; i--) {
-                {
-                    int t= (int)(Math.random()*50);
-                    System.out.println(name + ": " + t);
-                    Integer u=Integer.valueOf(t);
-                   if( (Integer) m.get(u) ==null)
-                       m.put(u, Integer.valueOf(1));
-                   else
-                   {
-                       Integer y=(Integer) m.get(u);
 
 
-                       int r=y.intValue();
 
-
-                       Integer q=Integer.valueOf(r+1);
-
-                       m.put(u, q);
-                   }
-
-
-                }
-
-                Thread.sleep(100);
-            }
-        }catch (InterruptedException e) {
-            System.out.println(name + "Interrupted");
-        }
-        System.out.println(name + " exiting.");
-    }
 }
 class MultiThread {
     public static void main(String args[]) {
