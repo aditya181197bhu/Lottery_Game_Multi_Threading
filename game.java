@@ -1,5 +1,5 @@
 package game.java_files;
-import org.omg.PortableInterceptor.INACTIVE;
+//import org.omg.PortableInterceptor.INACTIVE;
 
 import java.util.Scanner;
 import java.util.HashMap;
@@ -51,7 +51,7 @@ class MyThread implements Runnable {
         }catch (InterruptedException e) {
             System.out.println(name + "Interrupted");
         }
-////        System.out.println(name + " exiting.");
+        System.out.println(name + " exiting.");
     }
 }
 class MultiThread {
