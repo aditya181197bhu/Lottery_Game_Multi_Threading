@@ -18,10 +18,15 @@ class MyThread implements Runnable {
         t.start();
         for (int i=0;i<=50;i++)
             m.put(Integer.valueOf(i), Integer.valueOf(1));
+        for (int i=0;i<=50;i++)
+            m.put(Integer.valueOf(i), Integer.valueOf(1));
     }
     public void run() {
 
-        Thread.sleep(1000);
+//        Thread.sleep(1000);
+//        Thread.sleep(1000);
+//        Thread.sleep(1000);
+
 
 
 
